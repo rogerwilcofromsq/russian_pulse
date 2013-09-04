@@ -2052,17 +2052,11 @@ body.mobile .AdSense
 </b:includable>
   </b:widget>
 </b:section-contents><b:section-contents id='sidebar-right-2-1'>
-  <b:widget id='HTML1' locked='false' title='Невидимый счтчик' type='HTML'>
+  <b:widget id='HTML1' locked='false' title='' type='HTML'>
     <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
+      <data:content/>
 
-  <b:include name='quickedit'/>
-</b:includable>
+      <b:include name='quickedit'/>
+    </b:includable>
   </b:widget>
 </b:section-contents><b:section-contents id='sidebar-right-2-2'/><b:section-contents id='sidebar-right-3'/><b:section-contents id='footer-1'/><b:section-contents id='footer-2-1'/><b:section-contents id='footer-2-2'/></html>
