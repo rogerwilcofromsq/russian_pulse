@@ -7,7 +7,7 @@ class Template
 
   def build
     b = binding
-    result = ERB.new(File.read(@template_path).gsub(/^\s+/, ""), 0, "", "@product").result(b)
+    result = ERB.new(File.read(@template_path).gsub(/\s+$/, ""), 0, "", "@output").result(b)
 
     result
   end
